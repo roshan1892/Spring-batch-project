@@ -11,7 +11,7 @@ import java.util.List;
 
 @Component
 @Slf4j
-public class DBWriter implements ItemWriter<UserEntity> {
+public class UserWriter implements ItemWriter<UserEntity> {
 
     @Autowired
     private UserRepository userRepository;

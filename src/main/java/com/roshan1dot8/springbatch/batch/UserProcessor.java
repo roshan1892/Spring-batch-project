@@ -10,11 +10,11 @@ import java.util.Map;
 
 @Component
 @Slf4j
-public class Processor implements ItemProcessor<UserEntity, UserEntity> {
+public class UserProcessor implements ItemProcessor<UserEntity, UserEntity> {
 
     private Map<String, String> departmentMap = new HashMap<>();
 
-    public Processor() {
+    public UserProcessor() {
         departmentMap.put("001", "Technology");
         departmentMap.put("002", "Operations");
         departmentMap.put("003", "Accounts");
